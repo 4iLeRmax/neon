@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+<body>
+
+  <div class="container">
+    <div class="side_menu">
+      <div class="space_name">
+        <h1>Explore</h1>
+      </div>
+      <div class="menu">
+        <ul class="nav_links">
+          <li><a href="#"><i class="fa-solid fa-compass"></i>Home</a></li>
+          <li><a href="#"><i class="fa-solid fa-music"></i>Music</a></li>
+          <li><a href="#"><i class="fa-solid fa-gamepad"></i>Gaming</a></li>
+          <li><a href="#"><i class="fa-solid fa-globe"></i>Science & Tech</a></li>
+          <li><a href="#"><i class="fa-solid fa-book"></i>Education</a></li>
+          <li><a href="#"><i class="fa-solid fa-circle-play"></i>Entertainment</a></li>
+          <li><a href="#"><i class="fa-solid fa-users"></i>Student Hubs</a></li>
+        </ul>
+      </div>
+      <div class="action_menu">
+        <div class="voice">
+          <img src="./img/Voice.svg">
+        </div>
+        <div class="sub_menu">
+
+          <div class="space_neame">
+            <img src="./img/space_name.svg">
+            <h1>Sophie</h1>
+          </div>
+
+         <button class="micro" onclick="apear()"><img src="./img/micro.svg"></button>
+
+          <div class="tools">
+            <ion-icon name="headset-outline"></ion-icon>
+            <ion-icon name="person-add-outline"></ion-icon>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="main_container">
+      <div class="search">
+        <label for="name"><ion-icon name="search-outline"></ion-icon>Explore</label>
+        <input type="text" id="name">
+      </div>
+
+      <div class="main_content">
+        <div class="content">
+          <img src="./img/main.jpg">
+          <h1>Find your community<br>on Daccord</h1>
+        </div>
+        <div class="features">
+          <div class="title">
+            <h1>Featured Community</h1>
+            <a href="#">See all</a>
+          </div>
+          <div class="features_main">
+            <div class="card">
+              <img src="./img/card-1_bg.png" class="bg1">
+              <div class="bg2">
+                <img src="./img/card-1_avatar.svg" class="avatar">
+                <div class="card_text">
+                  <h1>VR</h1>
+                  <p>
+                    Great place to hang out and meet new fans. Always<br>
+                    sharong the newest info,
+                  </p>
+                  <div class="card_info">
+                    <h2>
+                      109,789 Online
+                    </h2>
+                    <h2>
+                      1t09,789 Members
+                    </h2>
+                  </div>
+                </div>
+              </div>
+              
+              
+            </div>
+            <div class="card two">
+              <img src="./img/card-2_bg.png" class="bg1">
+              <div class="bg2">
+                <img src="./img/card-2_avatar.svg" class="avatar">
+                <div class="card_text">
+                  <h1>Game Play</h1>
+                  <p>
+                    Great place to hang out and meet new fans. Always<br>
+                    sharong the newest info,
+                  </p>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="popular">
+          <div class="title">
+            <h1>Popular right now</h1>
+            <a href="#">See all</a>
+          </div>
+          <div class="popular_main">
+            <div class="widget">
+              <img src="./img/widget-1_bg1.png" class="bg1">
+              <img src="./img/widget-1_bg2.svg" class="bg2">
+              <img src="./img/widget-1_avatar.svg" class="avatar">
+              <div class="widget_text">
+                <h1>3D Art</h1>
+                <p>
+                  Lorem ipsum dolor sit<br>
+                  amet, consectetur<br>
+                  adipiscing elit. Commodo<br>
+                  ut ac risus eleifend.
+                </p>
+                <h2>1,709,789 Members</h2>
+              </div>
+            </div>
+
+            <div class="widget">
+              <img src="./img/widget-2_bg1.png" class="bg1">
+              <img src="./img/widget-1_bg2.svg" class="bg2">
+              <img src="./img/widget-2_avatar.svg" class="avatar">
+              <div class="widget_text">
+                <h1>Game</h1>
+                <p>
+                  Great place to hang out<br>
+                  and meet new fans.<br>
+                  Always sharong the<br>
+                  newest info, 
+                </p>
+                <h2>1,239,787 Members</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="recent">
+          <div class="title">
+            <h1>Recent Add</h1>
+            <a href="#">See all</a>
+          </div>
+          <div class="recent_main">
+            <div class="recent_card">
+              <img src="./img/recent_card-1_bg.png" class="recent_card_bg">
+              <div class="card_content">
+                <img src="./img/card-1_avatar.svg"  class="recent_card_avatar">
+                <h1>Game</h1>
+                <p>
+                  Great place to hang out and<br>
+                  meet new fans. Always<br>
+                  sharong the newest info,
+                </p>
+              </div>
+            </div>
+            <div class="recent_card">
+              <img src="./img/recent_card-2_bg-2.png" class="recent_card_bg">
+              <div class="card_content">
+                <img src="./img/recent_card-2_avatar-2.svg"  class="recent_card_avatar">
+                <h1>Game</h1>
+                <p>
+                  Great place to hang out and<br>
+                  meet new fans. Always<br>
+                  sharong the newest info,
+                </p>
+              </div>
+            </div>
+            <div class="recent_card">
+              <img src="./img/recent_card-3_bg-3.png" class="recent_card_bg">
+              <div class="card_content">
+                <img src="./img/recent_card-3_avatar-3.svg"  class="recent_card_avatar">
+                <h1>Game</h1>
+                <p>
+                  Great place to hang out and<br>
+                  meet new fans. Always<br>
+                  sharong the newest info,
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div class="inspector">
+      <div class="inspector_menu">
+        <a href="#"><ion-icon name="card-outline"></ion-icon></a>
+        <a href="#"><ion-icon name="notifications-outline"></ion-icon></a>
+        <a href="#"><ion-icon name="chatbubble-outline"></ion-icon></a>
+        <a href="#"><ion-icon name="settings-outline"></ion-icon></a>
+      </div>
+      <div class="inspector_profile">
+        <img src="./img/profilePhoto.svg">
+        <div class="info">
+          <h1>Sophie Fortune</h1>
+          <a href="#">@sophiefortune</a>
+        </div>
+      </div>
+      <div class="inspector_users">
+        <div class="header_text">
+          <h1>New Members</h1>
+          <a href="#">See all</a>
+        </div>
+        <div class="users">
+          <div class="user">
+            <img src="./img/user-1.png">
+            <h1>
+              Anne Couture<br>
+              <span>3 min ago</span>
+            </h1>
+          </div>
+          <div class="user">
+            <img src="./img/user-2.png">
+            <h1>
+              Miriam Soleil<br>
+              <span>20 min ago</span>
+            </h1>
+          </div>
+          <div class="user">
+            <img src="./img/user-3.png">
+            <h1>
+              Marie Laval<br>
+              <span>35 min ago</span>
+            </h1>
+          </div>
+          <div class="user">
+            <img src="./img/user-4.png">
+            <h1>
+              Mark  Morain<br>
+              <span>40 min ago</span>
+            </h1>
+          </div>
+        </div>
+      </div>
+      <div class="social_links">
+        <h1>Follow me</h1>
+        <div class="inst">
+          <a href="#">@maxzlatin</a>
+          <div class="social">
+            <img src="./img/instagram.svg">
+            <h1>Hover to check</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./app.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
